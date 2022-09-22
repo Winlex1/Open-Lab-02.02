@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_02._02
 {
@@ -6,7 +6,10 @@ namespace Open_Lab_02._02
     {
         public void Format(double[] numbers)
         {
-            throw new NotImplementedException();
+            foreach(double value in numbers)
+            {
+                Console.Write(Math.Round(value, 2) + " ");
+            }
         }
     }
 }
